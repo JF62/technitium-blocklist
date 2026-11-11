@@ -14,7 +14,10 @@ output:
   safety_guard: true
 
 sources:
-  - name: hagezi-pro-plus
+  - name: JF W&BL
+    url: https://gist.githubusercontent.com/JF62/1f103339f17ffafb560f936c0529b6d2/raw/b42a0c5ccfd2bd6373749d9b100335a16a7a1a66/JF_Technitium_Block-_und_Whitelist.txt
+    enabled: true
+  - name: JF Black & Whitelist
     url: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/pro.plus-onlydomains.txt
     category: ads
     enabled: true
