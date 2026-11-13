@@ -95,7 +95,7 @@ sources:
   - name: "hagezi-fake"
     url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/fake-onlydomains.txt"
     category: "security"
-    enabled: true
+    enabled: false
   - name: "hagezi-hoster"
     url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/hoster-onlydomains.txt"
     category: "ads"
