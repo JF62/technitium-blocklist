@@ -6,9 +6,11 @@ version: 1
 output:
   filename: "technitium-blocklist.txt"
   compact_filename: "technitium-blocklist-compact.txt"
+  adblock_filename: "technitium-blocklist-adblock.txt"
   title: "Technitium merged blocklist"
   sort: true
   compact: true
+  adblock: true
   safety_guard: true
 
 sources:
