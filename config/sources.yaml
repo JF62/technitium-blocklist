@@ -55,7 +55,7 @@ sources:
   - name: "shadowwhisperer-malware"
     url: "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Malware"
     category: "malware"
-    enabled: true
+    enabled: false
   - name: "phishing-army"
     url: "https://phishing.army/download/phishing_army_blocklist.txt"
     category: "phishing"
