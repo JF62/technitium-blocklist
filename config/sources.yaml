@@ -13,10 +13,6 @@ output:
   safety_guard: true
 
 sources:
-  - name: "jf-bwl"
-    url: "https://gist.githubusercontent.com/JF62/1f103339f17ffafb560f936c0529b6d2/raw/b42a0c5ccfd2bd6373749d9b100335a16a7a1a66/JF_Technitium_Block-_und_Whitelist.txt"
-    category: "misc"
-    enabled: true
   - name: "hagezi-pro-plus"
     url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/pro.plus-onlydomains.txt"
     category: "ads"
@@ -74,11 +70,11 @@ sources:
   - name: "stevenblack-fakenews-gambling"
     url: "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts"
     category: "misc"
-    enabled: true
+    enabled: tru
   - name: "goodbyeads-spotify"
     url: "https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Spotify-AdBlock.txt"
     category: "ads"
-    enabled: true
+    enabled: false
   - name: "blocklistproject-tracking"
     url: "https://raw.githubusercontent.com/blocklistproject/Lists/master/tracking.txt"
     category: "tracking"
