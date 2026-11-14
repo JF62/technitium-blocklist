@@ -1,0 +1,162 @@
+{
+ "generated_at": "2026-11-14T06:31:35Z",
+ "content_sha256": "0259a33b32ee0bdfa60c565c1fb89bc173cbd3e107a7bb95be8ce36a58047841",
+ "totals": {
+  "sources_configured": 36,
+  "sources_used": 9,
+  "domains_parsed": 4985719,
+  "unique": 4255186,
+  "exact_duplicates": 730533,
+  "allowlist_removed": 0,
+  "safety_dropped": 0,
+  "compact": 3936013,
+  "compact_saved": 319173,
+  "adblock": 3936013
+ },
+ "sources": [
+  {
+   "name": "blocklistproject-malware",
+   "url": "https://raw.githubusercontent.com/blocklistproject/Lists/master/malware.txt",
+   "category": "malware",
+   "bytes": 72161681,
+   "domains_parsed": 2655820,
+   "new_unique": 2318170,
+   "duplicates": 337650,
+   "safety_dropped": 0,
+   "exceptions": 0,
+   "invalid": {
+    "ip": 573
+   },
+   "skipped": {},
+   "seconds": 41.7
+  },
+  {
+   "name": "hagezi-tif",
+   "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif-onlydomains.txt",
+   "category": "security",
+   "bytes": 26303215,
+   "domains_parsed": 1437748,
+   "new_unique": 1357165,
+   "duplicates": 80583,
+   "safety_dropped": 0,
+   "exceptions": 0,
+   "invalid": {},
+   "skipped": {},
+   "seconds": 24.0
+  },
+  {
+   "name": "hagezi-pro-plus",
+   "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/pro.plus-onlydomains.txt",
+   "category": "ads",
+   "bytes": 4799101,
+   "domains_parsed": 247159,
+   "new_unique": 247159,
+   "duplicates": 0,
+   "safety_dropped": 0,
+   "exceptions": 0,
+   "invalid": {},
+   "skipped": {},
+   "seconds": 4.7
+  },
+  {
+   "name": "blocklistproject-tracking",
+   "url": "https://raw.githubusercontent.com/blocklistproject/Lists/master/tracking.txt",
+   "category": "tracking",
+   "bytes": 4215541,
+   "domains_parsed": 143876,
+   "new_unique": 127487,
+   "duplicates": 16389,
+   "safety_dropped": 0,
+   "exceptions": 0,
+   "invalid": {},
+   "skipped": {},
+   "seconds": 2.6
+  },
+  {
+   "name": "phishing-army",
+   "url": "https://phishing.army/download/phishing_army_blocklist.txt",
+   "category": "phishing",
+   "bytes": 3148038,
+   "domains_parsed": 145666,
+   "new_unique": 77925,
+   "duplicates": 67741,
+   "safety_dropped": 0,
+   "exceptions": 0,
+   "invalid": {},
+   "skipped": {},
+   "seconds": 2.9
+  },
+  {
+   "name": "adguard-dns",
+   "url": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
+   "category": "ads",
+   "bytes": 4679546,
+   "domains_parsed": 190655,
+   "new_unique": 72882,
+   "duplicates": 117773,
+   "safety_dropped": 0,
+   "exceptions": 184,
+   "invalid": {
+    "ip": 74,
+    "bad-label": 495,
+    "path-or-port": 33,
+    "wildcard-syntax": 10
+   },
+   "skipped": {
+    "abp-skipped-option": 4,
+    "abp-unparsed": 2
+   },
+   "seconds": 1.8
+  },
+  {
+   "name": "stevenblack-fakenews-gambling",
+   "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts",
+   "category": "misc",
+   "bytes": 2577904,
+   "domains_parsed": 86488,
+   "new_unique": 53536,
+   "duplicates": 32952,
+   "safety_dropped": 0,
+   "exceptions": 0,
+   "invalid": {
+    "local-name": 13,
+    "ip": 1
+   },
+   "skipped": {
+    "stripped-ip-prefix": 2
+   },
+   "seconds": 1.9
+  },
+  {
+   "name": "hagezi-popupads",
+   "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/popupads-onlydomains.txt",
+   "category": "ads",
+   "bytes": 1401894,
+   "domains_parsed": 77809,
+   "new_unique": 550,
+   "duplicates": 77259,
+   "safety_dropped": 0,
+   "exceptions": 0,
+   "invalid": {},
+   "skipped": {},
+   "seconds": 1.5
+  },
+  {
+   "name": "smarttv",
+   "url": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt",
+   "category": "tracking",
+   "bytes": 16594,
+   "domains_parsed": 498,
+   "new_unique": 384,
+   "duplicates": 114,
+   "safety_dropped": 0,
+   "exceptions": 0,
+   "invalid": {},
+   "skipped": {
+    "multi-token": 4
+   },
+   "seconds": 0.1
+  }
+ ],
+ "dropped_dangerous": []
+}
