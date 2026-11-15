@@ -54,7 +54,7 @@ sources:
   - name: "phishing-army"
     url: "https://phishing.army/download/phishing_army_blocklist.txt"
     category: "phishing"
-    enabled: true
+    enabled: false
   - name: "firebog-easylist"
     url: "https://v.firebog.net/hosts/Easylist.txt"
     category: "ads"
@@ -107,7 +107,7 @@ sources:
   - name: "adguard-dns"
     url: "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
     category: "ads"
-    enabled: true
+    enabled: false
   - name: "firebog-adguarddns"
     url: "https://v.firebog.net/hosts/AdguardDNS.txt"
     category: "ads"
