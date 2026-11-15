@@ -14,15 +14,15 @@ output:
 
 sources:
   - name: "hagezi-pro-plus"
-    url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/pro.plus-onlydomains.txt"
+    url: "https://hagezi-mirror.dnsbunker.org/adblock/pro.plus.txt"
     category: "ads"
     enabled: true
   - name: "hagezi-popupads"
     url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/popupads-onlydomains.txt"
     category: "ads"
-    enabled: true
+    enabled: false
   - name: "hagezi-tif"
-    url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif-onlydomains.txt"
+    url: "https://hagezi-mirror.dnsbunker.org/adblock/tif.txt"
     category: "security"
     enabled: true
   - name: "hagezi-nrd7"
@@ -70,7 +70,7 @@ sources:
   - name: "stevenblack-fakenews-gambling"
     url: "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts"
     category: "misc"
-    enabled: tru
+    enabled: false
   - name: "goodbyeads-spotify"
     url: "https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Spotify-AdBlock.txt"
     category: "ads"
@@ -78,20 +78,20 @@ sources:
   - name: "blocklistproject-tracking"
     url: "https://raw.githubusercontent.com/blocklistproject/Lists/master/tracking.txt"
     category: "tracking"
-    enabled: true
+    enabled: false
   - name: "blocklistproject-malware"
     url: "https://raw.githubusercontent.com/blocklistproject/Lists/master/malware.txt"
     category: "malware"
-    enabled: true
+    enabled: false
   - name: "hagezi-ultimate"
     url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/ultimate-onlydomains.txt"
     category: "ads"
     enabled: false
     note: "Superset of most other hagezi lists; expect high redundancy with them."
   - name: "hagezi-fake"
-    url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/fake-onlydomains.txt"
+    url: "https://hagezi-mirror.dnsbunker.org/adblock/fake.txt"
     category: "security"
-    enabled: false
+    enabled: true
   - name: "hagezi-hoster"
     url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/hoster-onlydomains.txt"
     category: "ads"
@@ -161,3 +161,7 @@ sources:
     url: "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext"
     category: "ads"
     enabled: false
+  - name: "tiktok"
+    url: "https://hagezi-mirror.dnsbunker.org/adblock/native.tiktok.txt"
+    category: "ads"
+    enabled: true
