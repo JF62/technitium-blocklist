@@ -1,0 +1,91 @@
+{
+ "generated_at": "2026-11-28T15:30:46Z",
+ "content_sha256": "56302becc71a309aa0534b49a920b1520b38c5cc48eafcb25bca8085d91037ea",
+ "totals": {
+  "sources_configured": 37,
+  "sources_used": 5,
+  "domains_parsed": 1135384,
+  "unique": 1056793,
+  "exact_duplicates": 78591,
+  "allowlist_removed": 0,
+  "safety_dropped": 0,
+  "compact": 1055117,
+  "compact_saved": 1676,
+  "adblock": 1055117
+ },
+ "sources": [
+  {
+   "name": "hagezi-tif",
+   "url": "https://hagezi-mirror.dnsbunker.org/adblock/tif.txt",
+   "category": "security",
+   "bytes": 18410271,
+   "domains_parsed": 871833,
+   "new_unique": 804589,
+   "duplicates": 67244,
+   "safety_dropped": 0,
+   "exceptions": 0,
+   "invalid": {},
+   "skipped": {},
+   "seconds": 5.9
+  },
+  {
+   "name": "hagezi-pro-plus",
+   "url": "https://hagezi-mirror.dnsbunker.org/adblock/pro.plus.txt",
+   "category": "ads",
+   "bytes": 5715179,
+   "domains_parsed": 251808,
+   "new_unique": 251808,
+   "duplicates": 0,
+   "safety_dropped": 0,
+   "exceptions": 0,
+   "invalid": {},
+   "skipped": {},
+   "seconds": 2.0
+  },
+  {
+   "name": "smarttv",
+   "url": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt",
+   "category": "tracking",
+   "bytes": 16594,
+   "domains_parsed": 498,
+   "new_unique": 389,
+   "duplicates": 109,
+   "safety_dropped": 0,
+   "exceptions": 0,
+   "invalid": {},
+   "skipped": {
+    "multi-token": 4
+   },
+   "seconds": 0.0
+  },
+  {
+   "name": "hagezi-fake",
+   "url": "https://hagezi-mirror.dnsbunker.org/adblock/fake.txt",
+   "category": "security",
+   "bytes": 220358,
+   "domains_parsed": 10698,
+   "new_unique": 6,
+   "duplicates": 10692,
+   "safety_dropped": 0,
+   "exceptions": 0,
+   "invalid": {},
+   "skipped": {},
+   "seconds": 0.2
+  },
+  {
+   "name": "tiktok",
+   "url": "https://hagezi-mirror.dnsbunker.org/adblock/native.tiktok.txt",
+   "category": "ads",
+   "bytes": 18317,
+   "domains_parsed": 547,
+   "new_unique": 1,
+   "duplicates": 546,
+   "safety_dropped": 0,
+   "exceptions": 0,
+   "invalid": {},
+   "skipped": {},
+   "seconds": 0.2
+  }
+ ],
+ "dropped_dangerous": []
+}
